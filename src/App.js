@@ -14,15 +14,15 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Container customClass="min_height">
+      <Container customClass="min_height">
+        <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/company" element={<Company/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/newproject" element={<NewProject/>}/>
-        </Container>
-      </Routes>
+        </Routes>
+      </Container>
       <Footer />
     </Router>
   );
